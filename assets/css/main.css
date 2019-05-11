@@ -1,0 +1,98 @@
+body {
+    padding-top: 20px;
+  }
+  
+
+  /**
+   ****FORM
+  **/
+
+  fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove rgb(0, 0, 0);
+}
+    
+.footer nav {
+    /*padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;*/
+   border: 1px solid #e9ecef;
+  /* border-radius:25rem;*/
+  border-radius:6px 6px 6px 6px;
+   /*background-color:#eee;*/
+   background-color:#e9ecef;
+   box-sizing:border-box;
+   overflow:auto;
+   padding:10px 0px 50px 0px;
+   margin-bottom: 10px;
+   }
+
+   .regression,.classification,.clustering{
+    float:left;
+    width:33.3%;
+    list-style: none;
+   }
+
+  .regression a,.classification a,.clustering a{
+    padding-left:50px;
+  } 
+
+.copiright{
+  /*both:left;*/
+  list-style: none;
+  width:100%;
+
+}
+
+.copiright small{
+  padding-left: 400px;
+}
+
+  .footer span{
+     text-align:center;
+  }
+  
+
+  .logo{
+    width: 50%;
+    height: 80%;
+  }
+
+  .text-muted{
+    padding-left: 5px;
+  }
+.btn btn-secondary{
+  float:right;
+  position: relative;
+  left:100px;
+}
+
+.masthead .col-lg-2{
+  position: relative;
+  left:90px;
+}
+
+small{
+  padding-left: 500px;
+  /* both:left;*/
+   position:relative;
+   bottom: 12px;
+   
+}
+
+.regression, .classification{
+  border-right:1px solid black;
+}
+
+.masthead .text-muted{
+  text-align: center;
+  position:relative;
+  right:70px;
+}
+ 

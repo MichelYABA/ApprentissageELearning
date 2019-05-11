@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Projet Big Data</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body text="#F0F0F0">
+
+    <div class="container">
+
+        <header class="masthead">
+            <div class="row">
+                <div class="col-lg-4">
+                   
+                       
+                            <a href="index.html">
+                        <!--img src="http://via.placeholder.com/350x150"-->
+                            <img src="images/desert.jpg" class="logo">
+                    </a>
+                       
+                    
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h3 class="text-muted">Project Big Data</h3>
+                </div>
+                <div class="col-lg-2">
+                    <button type="button" class="btn btn-secondary">
+                        <span class="admin">Admin</span>
+                    </button>
+                </div>
+            </div>
+           
+            <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav text-md-center nav-justified w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Accueil
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Telechargements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <nav aria-label="breadcrumb" role="navigation">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">...</li>
+            </ol>
+        </nav>
+        <main role="main">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="text-center">Description</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                                mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                                magna mollis euismod. Donec sed odio dui. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h2>Type Algorithme</h2>
+                    <form action="Pages/treatment.html" method="POST">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="typeAlgorithme" value="regression"> Régression
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="typeAlgorithme" value="classification"> Classification
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="typeAlgorithme" value="clustering"> Clustering
+                                </label>
+                            </div>
+                        </div>
+                        <fieldset>
+                            <legend>Document (CSV, TXT, EXCEL)</legend>
+                            <div class="form-group text-center">
+                                <!--div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="typeAlgorithme" value="csv"> CSV
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="typeAlgorithme" value="txt"> TXT
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="typeAlgorithme" value="excel"> Excel
+                                    </label>
+                                </div-->
+								<br/>
+                                <div class="form-group">
+                                    <label for="form-control-file">Déposer votre fichier ici</label>
+									<br/><br/>
+                                    <input type="file" class="form-control-file">
+                                </div>
+								
+                            </div>
+                        </fieldset>
+                        <br>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary float-right" id="submit" name="submit">Envoyer en traitement</button>
+                        </div>
+                    </form>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Utilisateur Avancé ?
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="Pages/intermediaryUser.html">Profil Intermediaire</a>
+                            <a class="dropdown-item" href="Pages/expertUser.html">Profil Expert</a>
+                        </div>
+                        <!--select class="form-control">
+                            <option value="basique" selected><a class="dropdown-item" href="index.html">Profil Basique</a></option>
+                            <option value="intermediaire"><a class="dropdown-item" href="Pages/intermediaryUser.html">Profil Intermediaire</a></option>
+                            <option value="expert"> <a class="dropdown-item" href="Pages/expertUser.html">Profil Expert</a></option>
+                        </select>
+                        <div class="btn-group">
+                            <button class="btn btn-default dropdown-toggle" datatoggle="dropdown"> choix du profil</button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Dompteurs</a></li>
+                                <li><a href="#">Zoos</a></li>
+                                <li><a href="#">Chasseurs</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Autres témoignages</a></li>
+                            </ul>
+                        </div-->
+                    </div>
+                 
+                </div>
+            </div>
+
+        </main>
+         <hr/>
+        <!-- Site footer -->
+        <footer class="footer">
+
+            <nav >
+            <ul >
+                        <li class="regression" >
+                            <a  href="#">
+                               Regression
+                            </a>
+                           
+                        </li>
+                        <li class="classification">
+                            <a  href="#">Classification supervisée</a>
+                        </li>
+                        <li class="clustering">
+                            <a href="#">Clustering</a>
+                        </li>
+                        
+                        
+                    </ul>
+                     <!--small>&copy; Projet Big Data 2017</small-->
+            <!--small>&copy; Projet Big Data 2017</small-->
+        </nav>
+            <small>&copy; Projet Big Data 2017</small>
+            <!--div class="jumbotron">
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <a href="#"> - Régression</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"> - Classification</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"> - Clusterning</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"> - Lorem ipsum</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"> - Lorem ipsum</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"> - Lorem ipsum</a>
+                    </div>
+
+                </div>
+            </div-->
+            <!--div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4"><small style="text-align:center">&copy; Projet Big Data 2017</small></div>
+                <div class="col-lg-4"></div>
+            </div-->
+        </footer>
+
+    </div>
+    <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script-->
+
+    <script src="assets/js/vendor/popper.min.js"></script>
+	<script src="assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
